@@ -10,14 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    var text = "Hello World"
+    // MARK: IBOutlet
+    @IBOutlet weak var textLabel: UILabel!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("Setting text label to \(text)")
+        textLabel.text = text
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let entryVC = storyboard?.instantiateViewController(withIdentifier: "TextEntry") as! TextEntryViewController
+        entryVC.text = self.text
+        present(entryVC, animated: true, completion: nil)
     }
 
 

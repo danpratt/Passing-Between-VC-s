@@ -12,6 +12,7 @@
 		65E54B141E6796FC005C366E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E54B121E6796FC005C366E /* Main.storyboard */; };
 		65E54B161E6796FC005C366E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E54B151E6796FC005C366E /* Assets.xcassets */; };
 		65E54B191E6796FC005C366E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E54B171E6796FC005C366E /* LaunchScreen.storyboard */; };
+		65E54B211E6797B0005C366E /* TextEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E54B201E6797B0005C366E /* TextEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		65E54B151E6796FC005C366E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65E54B181E6796FC005C366E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65E54B1A1E6796FC005C366E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E54B201E6797B0005C366E /* TextEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				65E54B0E1E6796FC005C366E /* AppDelegate.swift */,
 				65E54B101E6796FC005C366E /* ViewController.swift */,
+				65E54B201E6797B0005C366E /* TextEntryViewController.swift */,
 				65E54B121E6796FC005C366E /* Main.storyboard */,
 				65E54B151E6796FC005C366E /* Assets.xcassets */,
 				65E54B171E6796FC005C366E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				65E54B111E6796FC005C366E /* ViewController.swift in Sources */,
 				65E54B0F1E6796FC005C366E /* AppDelegate.swift in Sources */,
+				65E54B211E6797B0005C366E /* TextEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
